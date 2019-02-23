@@ -18,6 +18,7 @@ public class BallController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		
 		//シーン中のGameOverTextオブジェクトを取得
 		this.gameoverText = GameObject.Find("GameOverText");
 		/* 課題追加箇所	*/
